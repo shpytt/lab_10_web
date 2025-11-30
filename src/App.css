@@ -491,14 +491,9 @@
     }
 }
 
-/* ... (твої попередні стилі) ... */
-
-/* --- CART PAGE STYLES (ВИПРАВЛЕНО ШИРИНУ) --- */
-
 .CartPage {
     padding: 40px 0;
     max-width: 1200px;
-    /* Широкий контейнер */
     width: 100%;
     margin: 0 auto;
 }
@@ -516,12 +511,10 @@
     width: 100%;
 }
 
-/* Рядок товару: розтягує вміст по краях */
 .CartItem {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* ГОЛОВНЕ: Розносить ліву і праву частини */
     border: 1px solid #000;
     border-radius: 6px;
     padding: 20px 40px;
@@ -529,17 +522,14 @@
     background-color: #fff;
     height: 120px;
     width: 100%;
-    /* Займає всю ширину */
     box-sizing: border-box;
 }
 
-/* Ліва частина (Фото + Назва) */
 .CartItem-left {
     display: flex;
     align-items: center;
     gap: 30px;
     flex: 1;
-    /* Дозволяє займати простір */
 }
 
 .CartItem-image {
@@ -566,12 +556,10 @@
     color: #000;
 }
 
-/* Права частина (Кнопки + Ціна) */
 .CartItem-right {
     display: flex;
     align-items: center;
     gap: 100px;
-    /* Великий відступ між кнопками і ціною */
 }
 
 .CartItem-controls {
@@ -615,7 +603,6 @@
     color: #000;
 }
 
-/* Футер кошика */
 .CartFooter {
     width: 100%;
 }
@@ -639,11 +626,9 @@
     color: #000;
 }
 
-/* Кнопки знизу */
 .CartActions {
     display: flex;
     justify-content: space-between;
-    /* Розносить кнопки по краях */
     width: 100%;
 }
 
@@ -666,7 +651,6 @@
     background-color: #f0f0f0;
 }
 
-/* Адаптивність для мобільних */
 @media (max-width: 768px) {
     .CartItem {
         flex-direction: column;
@@ -694,4 +678,5 @@
     .CartActions .Button {
         width: 100%;
     }
+
 }
